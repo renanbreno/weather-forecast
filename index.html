@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather-Forecast</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body onload="requestDataForecast()">
+    <div class="content-header">
+        <div class="location">
+            <img src="img/icon _place_.svg" alt="">
+            <h2 id="cityName">--------</h2>
+        </div>
+        
+        <div class="search-container">
+            <input type="text" name="search" id="input-search" class="input-search" placeholder="Informe a cidade">
+            <button id="btn-search" class="btn-search"><img src="img/lupa.svg" alt=""></button>
+        </div>
+
+        <div class="temp-container">
+            <h2 id="temp-content">--</h2>
+            <span>ºC</span>
+        </div>
+
+        <div class="info-clouds" id="info-clouds">
+            
+        </div>
+    </div>
+
+    <div class="btn-details-container">
+        <button class="btn-details">Mais detalhes > </button>
+    </div>
+
+    <div class="container-weather">
+        <div class="content-weather">
+            <img>
+            <h3>--</h3>
+            <h3>--</h3>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

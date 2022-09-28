@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Cabin', sans-serif;
+    color: #ffffff;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(#005C97, #363795);
+}
+
+.content-header {
+    text-align: center;
+    margin-top: 32px;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-search {
+    margin: -16px 0px 0px -35px;
+    height: 20px;
+    background-color: transparent;
+    border: none;
+    text-align: center;
+}
+
+.search-container input {
+    font-size: 1rem;
+}
+
+.btn-search img {
+    height: 20px;
+    width: 20px;
+}
+
+.input-search {
+    width: 218px;
+    border-radius: 100px;
+    height: 43px;
+    margin: 16px 0px 32px 0px;
+    background-color: #FFB200;
+    border: none;
+    padding-left: 12px;
+}
+
+.input-search::placeholder {
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+
+.btn-details {
+    background-color: transparent;
+    border: none;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.temp-container {
+    display: flex;
+    justify-content: center;
+    margin-left: 32px;
+}
+
+.temp-container h2 {
+    font-size: 9rem;
+    font-weight: 700;
+}
+
+.temp-container span {
+    margin: 16px 0px 0px 8px;
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+.info-clouds {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.btn-details-container {
+    display: flex;
+    justify-content: flex-end;
+    margin: 32px 32px 0px 0px;
+}
+
+.container-weather {
+    margin: 20px 0px 0px 21px;
+}
+
+.content-weather {
+    display: grid;
+    grid-template-columns: 0.4fr 2.2fr 1fr;
+    margin-top: 32px;
+}
